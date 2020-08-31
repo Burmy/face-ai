@@ -64,6 +64,7 @@ class App extends Component {
         entries: data.entries,
         joined: data.joined
       }
+
     })
   }
 
