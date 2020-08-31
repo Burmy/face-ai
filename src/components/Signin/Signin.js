@@ -68,7 +68,7 @@ class Signin extends React.Component {
                         <div className="">
                             <input
                                 onClick={this.onSubmitSignIn}
-                                className="card reg ph5 pointer br3 center"
+                                className="reg ph5 pointer br3 center"
                                 type="submit"
                                 value="Sign in"
                             />

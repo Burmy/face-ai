@@ -82,7 +82,7 @@ class Register extends React.Component {
                         <div className="">
                             <input
                                 onClick={this.onSubmitSignIn}
-                                className="card reg ph6 pointer br3 center"
+                                className="reg ph6 pointer br3 center"
                                 type="submit"
                                 value="Register"
                             /> {/* className card/reg in Signin.css */}
