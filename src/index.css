@@ -1,0 +1,21 @@
+
+
+@font-face {
+    font-family: 'a Apple Tea Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('a Apple Tea Regular'), url('AppleTea-jELql.woff') format('woff');
+    }
+
+
+body {
+    margin: 0;
+    background: #18181b;
+    color: #77778f;
+    font-family: 'a Apple Tea Regular';
+}
+  
+  button {
+    cursor:pointer;
+  }
+

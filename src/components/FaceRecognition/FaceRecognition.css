@@ -1,0 +1,18 @@
+.bounding-box {
+    position: absolute;
+    border: 3px solid #ad0d5f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.img {
+  margin: 20px 20px;
+  border-radius: 10px;
+}
+
+.shd{
+  box-shadow: 0 19px 38px #0000007c, 0 15px 12px #0000007c;
+}
