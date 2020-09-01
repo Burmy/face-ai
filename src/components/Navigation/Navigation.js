@@ -7,17 +7,17 @@ const Navigation = ({ onRouteChange, isSignedIn }) => {
         return (
             < nav style={{ display: 'flex', justifyContent: 'flex-end' }}>
                 <p onClick={() => onRouteChange('signout')}
-                    className='btn'> Sign Out </p>
+                    className='btn ph5 pointer br3 center'> Sign Out </p>
             </ nav >
         );
     } else {
         return (
             < nav style={{ display: 'flex', justifyContent: 'flex-end' }}>
                 <p onClick={() => onRouteChange('signin')}
-                    className='btn'>Sign In</p>
+                    className='btn ph5 pointer br3 center'>Sign In</p>
 
                 <p onClick={() => onRouteChange('register')}
-                    className='btn'>Register</p>
+                    className='btn ph5 pointer br3 center'>Register</p>
 
             </ nav >
         );
