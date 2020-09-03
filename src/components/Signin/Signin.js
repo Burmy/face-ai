@@ -39,7 +39,7 @@ class Signin extends React.Component {
     render() {
         const { onRouteChange } = this.props;
         return (
-            <article className="card card-1 br3 mv4 w-100 w-50-m  mw6 center">
+            <article className=" card-1 br3 mv4 w-100 w-50-m  mw6 center">
                 <main className="pa4 ">
                     <div className="measure">
                         <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
@@ -68,13 +68,13 @@ class Signin extends React.Component {
                         <div className="">
                             <input
                                 onClick={this.onSubmitSignIn}
-                                className="card reg ph5 pointer br3 center"
+                                className="btn reg ph5 pointer br3 center"
                                 type="submit"
                                 value="Sign in"
                             />
                         </div>
                         <div className="">
-                            <p onClick={() => onRouteChange('Register')} className=" card ph6 reg pointer br3 center">Register</p>
+                            <p onClick={() => onRouteChange('Register')} className=" ph6 reg pointer br3 center">Register</p>
                         </div>
                     </div>
                 </main>

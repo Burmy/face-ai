@@ -44,7 +44,7 @@ class Register extends React.Component {
 
     render() {
         return (
-            <article className="card card-1 br3  mv4 w-100 w-50-m  mw6 center" > {/* className card/card-1 in Signin.css */}
+            <article className="card-1 br3  mv4 w-100 w-50-m  mw6 center" > {/* className card/card-1 in Signin.css */}
                 <main main className="pa4" >
                     <div className="measure">
                         <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
@@ -82,7 +82,7 @@ class Register extends React.Component {
                         <div className="">
                             <input
                                 onClick={this.onSubmitSignIn}
-                                className="card reg ph6 pointer br3 center"
+                                className="btn reg ph6 pointer br3 center"
                                 type="submit"
                                 value="Register"
                             /> {/* className card/reg in Signin.css */}
