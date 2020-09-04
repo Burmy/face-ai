@@ -39,15 +39,15 @@ class Signin extends React.Component {
     render() {
         const { onRouteChange } = this.props;
         return (
-            <article className=" card-1 br3 mv4 w-100 w-50-m  mw6 center">
+            <article className=" card-1 mv4 w-100 w-50-m  mw6 center">
                 <main className="pa4 ">
                     <div className="measure">
                         <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
                             <legend className="f1 fw6 ph0 mh0">Sign In</legend>
                             <div className="mt3">
-                                <label className="db f4 fw6 lh-copy " htmlFor="email-address">Email</label>
+                                <label className="db f4 fw6 br3 lh-copy " htmlFor="email-address">Email</label>
                                 <input
-                                    className=" pa2 white br3 input-reset ba bg-transparent hover-bg-black hover-white w-100"
+                                    className=" pa2 white input-reset ba bg-transparent hover-bg-black hover-white w-100"
                                     type="email"
                                     name="email-address"
                                     id="email-address"
@@ -55,9 +55,9 @@ class Signin extends React.Component {
                                 />
                             </div>
                             <div className="mv3">
-                                <label className="db fw6 lh-copy f4" htmlFor="password">Password</label>
+                                <label className="db fw6 br3 lh-copy f4" htmlFor="password">Password</label>
                                 <input
-                                    className="pa2 white br3 input-reset ba bg-transparent hover-bg-black hover-white w-100"
+                                    className="pa2 white input-reset ba bg-transparent hover-bg-black hover-white w-100"
                                     type="password"
                                     name="password"
                                     id="password"
@@ -74,7 +74,7 @@ class Signin extends React.Component {
                             />
                         </div>
                         <div className="">
-                            <p onClick={() => onRouteChange('Register')} className="btn pointer br3">Register</p>
+                            <p onClick={() => onRouteChange('Register')} className="btn pointer ">Register</p>
                         </div>
                     </div>
                 </main>
